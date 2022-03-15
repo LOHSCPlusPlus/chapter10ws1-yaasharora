@@ -1,5 +1,18 @@
 #include "Line.h"
 
 int main() {
-    return 0;
+
+Point s(1,1);
+Point e(5,5);
+
+Line a(s,e);
+
+a.print();
+//a.LineLength();
+//a.print(double LineLength);
+
+  
 }
+
+
+
